@@ -1,0 +1,58 @@
+<p:DatiFattura xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v2.0" versione="DAT20">
+  <DTR>
+    <CessionarioCommittenteDTR>
+      <IdentificativiFiscali>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>08767080966</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>08767080966</CodiceFiscale>
+      </IdentificativiFiscali>
+      <AltriDatiIdentificativi>
+        <Denominazione>AIGOSTAR SRL</Denominazione>
+        <Sede>
+          <Indirizzo>VIA DELLE INDUSTRIE</Indirizzo>
+          <NumeroCivico>9/1</NumeroCivico>
+          <CAP>20883</CAP>
+          <Comune>MEZZAGO</Comune>
+          <Provincia>MB</Provincia>
+          <Nazione>IT</Nazione>
+        </Sede>
+      </AltriDatiIdentificativi>
+    </CessionarioCommittenteDTR>
+    <CedentePrestatoreDTR>
+      <IdentificativiFiscali>
+        <IdFiscaleIVA>
+          <IdPaese>FR</IdPaese>
+          <IdCodice>64790933329</IdCodice>
+        </IdFiscaleIVA>
+      </IdentificativiFiscali>
+      <AltriDatiIdentificativi>
+        <Denominazione>Amazon Online France SAS</Denominazione>
+        <Sede>
+          <Indirizzo>Boulevard du General Leclerc</Indirizzo>
+          <NumeroCivico>67</NumeroCivico>
+          <CAP>92110</CAP>
+          <Comune>CLICHY</Comune>
+          <Nazione>FR</Nazione>
+        </Sede>
+      </AltriDatiIdentificativi>
+      <DatiFatturaBodyDTR>
+        <DatiGenerali>
+          <TipoDocumento>TD11</TipoDocumento>
+          <Data>2020-01-01</Data>
+          <Numero>0</Numero>
+          <DataRegistrazione>2020-01-31</DataRegistrazione>
+        </DatiGenerali>
+        <DatiRiepilogo>
+          <ImponibileImporto>117431.90</ImponibileImporto>
+          <DatiIVA>
+            <Imposta>0.00</Imposta>
+            <Aliquota>0.00</Aliquota>
+          </DatiIVA>
+          <Natura>N3</Natura>
+        </DatiRiepilogo>
+      </DatiFatturaBodyDTR>
+    </CedentePrestatoreDTR>
+  </DTR>
+</p:DatiFattura>
